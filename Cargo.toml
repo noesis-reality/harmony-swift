@@ -14,6 +14,7 @@ crate-type = ["rlib", "cdylib"]
 default = []
 python-binding = ["pyo3"]
 wasm-binding = ["wasm-bindgen", "serde-wasm-bindgen", "wasm-bindgen-futures"]
+c-api = []
 
 [dependencies]
 anyhow = "1.0.98"

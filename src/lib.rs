@@ -18,3 +18,6 @@ mod py_module;
 
 #[cfg(feature = "wasm-binding")]
 mod wasm_module;
+
+#[cfg(feature = "c-api")]
+pub mod c_ffi;
